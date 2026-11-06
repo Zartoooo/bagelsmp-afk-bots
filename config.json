@@ -1,0 +1,44 @@
+{
+  "server": {
+    "host": "bagelsmp.com",
+    "port": 25565,
+    "version": false,
+    "auth": "offline"
+  },
+  "bots": {
+    "count": 24,
+    "usernamePrefix": "a",
+    "randomSuffix": 4,
+    "password": "678jkl"
+  },
+  "chat": {
+    "echo": false,
+    "logAll": true
+  },
+  "antiAfk": {
+    "enabled": true,
+    "jumpIntervalMs": 3000,
+    "afkCommand": "/afk 3",
+    "afkRefreshMs": 600000
+  },
+  "shards": {
+    "enabled": true,
+    "command": "/shards",
+    "checkIntervalMs": 60000,
+    "pattern": "You have \\u2605\\s*([0-9][0-9.,]*)"
+  },
+  "dashboard": {
+    "host": "127.0.0.1",
+    "port": 3000
+  },
+  "viewer": {
+    "basePort": 3010,
+    "firstPerson": true,
+    "viewDistance": 2
+  },
+  "reconnect": {
+    "enabled": true,
+    "initialDelayMs": 5000,
+    "maxDelayMs": 60000
+  }
+}
